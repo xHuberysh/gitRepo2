@@ -1,0 +1,141 @@
+#container
+{
+    width: 1250px;
+    margin: 109px 48px 250px;
+}
+#header
+{
+    width: 100%;
+    height: 70px;
+    background-color:#FFA500;
+    text-align:center;
+}
+#content
+{
+    width: 100%;
+    background-color:#EEEEEE;
+    height: 500px;
+}
+#left
+{
+    width: 158px;
+    height: 100%;
+    float: left;
+    border:2px solid #a5b6c8;background:#eef3f7;
+}
+#right
+{
+    width: 1084px;
+    float: right;
+    border:1px solid #a5b6c8;background:#eef3f7;
+    height: 100%;
+}
+#footer
+{
+    width: 100%;
+    background-color:#FFA500;
+    clear:both;
+    text-align:center;
+}
+.p_font{
+    font-family: LiSu;
+    font-size: 25px;
+    float: left;
+    color: blueviolet;
+    margin: 20px;
+}
+.mytable
+{
+    border:1px solid #A6C1E4;
+    font-family:Arial;
+    border-collapse: collapse;
+}
+.th
+{
+    border:1px solid black;
+    background-color:#71c1fb;
+    width:131px;
+    height:30px;
+    font-size:16px;
+}
+.td
+{
+    border:1px solid #A6C1E4;
+    text-align:center;
+    height:40px;
+    padding-top:5px;
+    font-size:15px;
+}
+.double{
+
+    background-color:#c7dff6;
+
+}
+.box
+{
+    width:100%;
+    height: 90px;
+}
+.boxhead
+{
+    width: 100%;
+    height: 25px;
+    background-color: #eeeeee;
+    text-align:left;
+}
+.bar1 
+{
+    background: #A3D0C3;
+    height: 67px;
+}
+.bar1_input 
+{
+    border: 2px solid #7BA7AB;
+    border-radius: 5px;
+    background: #F9F0DA;
+    color: #9E9C9C;
+    height: 40px;
+    width: 400px;
+    margin-left: -4px;
+    margin-top: 8px;
+}
+.bar1_button 
+{
+        top: 0;
+        right: 0;
+        background: #7BA7AB;
+        border-radius: 0 5px 5px 0;
+        width: 70px;
+}
+.bar1_button:before 
+{
+    content: "\f002";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: #F9F0DA;
+}
+.select
+{
+    margin-left: 149px;
+    height: 35px;
+    background-color: beige;
+    font-family: fangsong;
+    font-weight: bold;
+}
+.button
+{
+    float: right;
+    margin-top: 10px;
+    margin-right: 168px;
+    height: 35px;
+    background-color: #71c1fb;
+    font-family: fangsong;
+    font-weight: bold;
+}
+.submit
+{
+    float:right;
+    background-color: #2196f3;
+    font-weight: bold;
+    height: 26px;
+}
